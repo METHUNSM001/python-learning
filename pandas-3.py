@@ -1,3 +1,31 @@
+'''Accepts data for multiple students
+
+Stores:
+
+Name
+
+Math marks
+
+Science marks
+
+English marks
+
+Automatically calculates:
+
+Total marks
+
+Average marks
+
+Grade
+
+Displays:
+
+Full result table
+
+List of passed students
+
+Top scorer
+'''
 import pandas as pd
 
 name_list = []
@@ -54,4 +82,5 @@ print(passed)
 #
 topper = df[df["Total"] == df["Total"].max()]
 print("\nTop Scorer:")
+
 print(topper)
